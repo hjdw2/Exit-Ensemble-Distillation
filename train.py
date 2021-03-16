@@ -17,7 +17,7 @@ import torchvision.models.utils as utils
 import numpy as np
 
 def parse_args():
-    parser = argparse.ArgumentParser(description='PyTorch Exit-Ensemble Training CIFAR100')
+    parser = argparse.ArgumentParser(description='PyTorch Exit-Ensemble Distillation Training CIFAR100')
     parser.add_argument('--cmd', choices=['train', 'test'], default='train')
     parser.add_argument('--data-dir', default='data', type=str,
                         help='the diretory to save cifar100 dataset')
