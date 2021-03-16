@@ -1,4 +1,4 @@
-# EED
+# Exit-Ensemble-Distillation
 ## Introduction
 
 This repository is the Pytorch code for the paper [Students are the Best Teacher: Exit-Ensemble Distillation with Multi-Exits]. 
